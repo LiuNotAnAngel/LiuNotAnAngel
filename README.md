@@ -1,4 +1,4 @@
-## dadasdas👋
+## HOLA
 
 Bienvenido a mi perfil de GitHub.
 
@@ -8,3 +8,5 @@ Bienvenido a mi perfil de GitHub.
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LiuNotAnAngel&show_icons=true)
 
 ![GitHub Commit Activity](https://github-readme-streak-stats.herokuapp.com/?user=LiuNotAnAngel)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LiuNotAnAngel&layout=compact)

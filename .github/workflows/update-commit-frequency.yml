@@ -1,0 +1,40 @@
+
+name=.github/workflows/update-commit-frequency.yml
+name: Update commit frequency image
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # ejecuta diariamente a las 08:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Generate commit frequency image
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: LiuNotAnAngel
+        run: |
+          python scripts/commit_frequency.py
+
+      - name: Commit generated image
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "chore: update commit frequency image"
+          add: "assets/commit_frequency.png"

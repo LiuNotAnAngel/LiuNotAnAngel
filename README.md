@@ -2,7 +2,8 @@
 
 Bienvenido a mi perfil de GitHub.
 
-- 🌱 Actualmente estudiante en la UIB
+- 🌱 Actualmente estudiando en la UIB
+- 🧑‍🍳 Cooking en las prácticas (a veces overcook pero son casos excepcionales)
 
 
 

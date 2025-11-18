@@ -1,5 +1,6 @@
+permissions:
+  contents: write
 
-name=.github/workflows/update-commit-frequency.yml
 name: Update commit frequency image
 
 on:
@@ -31,7 +32,14 @@ jobs:
         run: |
           python scripts/commit_frequency.py
 
-      - name: Commit generated image
+      - name: Debug - list files in assets
+        run: |
+          echo "Contenido de assets/"
+          ls -la assets || echo "assets no existe"
+          echo "pwd:"
+          pwd
+
+      - name: Commit generated image (if changed)
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions

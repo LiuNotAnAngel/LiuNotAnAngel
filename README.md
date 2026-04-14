@@ -1,6 +1,6 @@
 # ¡Hola! Soy Liu 👋
 
-Bienvenido/a a mi perfil de GitHub. Me gusta aprender, construir cosas y mejorar un poquito cada día.
+Bienvenido/a a mi perfil de GitHub. Me gusta construir cosas random y mejorar (?) un poquito cada día.
 
 ---
 
@@ -11,9 +11,9 @@ Bienvenido/a a mi perfil de GitHub. Me gusta aprender, construir cosas y mejorar
 
 ## Tecnologías
 
-**Lenguajes:** C · Java · Python · JavaScript
+**Lenguajes:** C · Java · Python · JavaScript · HTML 
 
-**Herramientas:** Git · GitHub · Linux
+**Herramientas:**  GitHub
 
 > *Nota:* iré actualizando esta sección conforme vaya aprendiendo más.
 
@@ -27,6 +27,5 @@ Bienvenido/a a mi perfil de GitHub. Me gusta aprender, construir cosas y mejorar
 
 ## Contacto
 
-- 💼 LinkedIn: *(pon aquí tu enlace)*
-- ✉️ Email: *(pon aquí tu email)*
+- ✉️ Email: *liujiashengljs@gmail.com*
 

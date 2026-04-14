@@ -13,7 +13,7 @@ Bienvenido/a a mi perfil de GitHub. Me gusta construir cosas random y mejorar (?
 
 **Lenguajes:** C · Java · Python · JavaScript · HTML 
 
-**Herramientas:**  GitHub
+**Herramientas:**  GitHub · Docker (?)
 
 > *Nota:* iré actualizando esta sección conforme vaya aprendiendo más.
 
